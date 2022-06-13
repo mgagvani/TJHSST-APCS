@@ -1,0 +1,30 @@
+LINEAR PROBE
+while current array is not empty increase current index by 1. 
+Use modulus
+
+while(array[inde % array.length] != null && count >= 0)
+
+REHASHING
+Correct Constant
+K is not factor of size and K is prime. Then constant is K. 
+
+Check by using constant, added to index. 
+
+NOTES FOR EAHST
+init count as array.length
+while object at index [index % arraay.length] !+ null && count > 0 {
+--index += constant
+--conunt--;
+if(count < 0) return -1; 
+return index; 
+
+Index += constant
+Contains method same, instead of adding 1, add constant. Modulus array.length
+
+Chaining constructur
+Instatiate array as LinkdedList;
+Each thing in array is also LinkedList; 
+Use isEmpthy method for add() method 
+AddFirst method, to add to beginning
+
+For chaining contains method, ifelse structure not needed. Iteration (... or .contains()? ) 

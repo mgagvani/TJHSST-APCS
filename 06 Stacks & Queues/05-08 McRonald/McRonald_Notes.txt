@@ -1,0 +1,22 @@
+Queue<Customer> queue = new LinkedList<Customer>;
+
+
+for(int min = 0; min < 1080; min++) { ORRRRRR ______ while (min < 1080 || queue.isEmpty() false) {
+ 1. If new customer comes? Math.random < 0.2
+ 2. Serve a customer? queue.isEmpty() (FIRST IN FIRST OUT)
+    -- If I start to serve a new customer? ServingTime is set Correctly. Between 2 and 7 minutes. 
+    -- If I am serving current customer? ServingTime--; (EITHER OR)
+       -- If serving is done? servingTime == 0
+          -- Remove customer from queue queue.remove();
+ 3. Display. How many customers are at current time. (CURRENT TIME: ARRIVAL TIME, ...) (CHECK IF CURRENT QUEUE IS LONGEST QUEUE OR NOT) queue.size()
+}
+X. While there are still customers and the store is closed, repeat #2 until the queue is empty
+
+FINALLY:
+Print statistics.
+
+Whenever I add a new customer, I can increase #ofcustomers by 1.
+Whenever I remove a customer, I can calculate the wait time of the customer. currentTime - arrivalTime; --> Add it to totalWaitTime --> Find if this is the longest wait time or not. 
+
+
+Average wait time- totalWaitTime/numberOfCustomers

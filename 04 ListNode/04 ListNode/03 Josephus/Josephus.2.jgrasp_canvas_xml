@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>countingOff</Name>
+    <Signature>(LListNode;II)LListNode;</Signature>
+    <DeclaringType>Josephus</DeclaringType>
+    <Depth>2</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>330</X>
+      <Y>300</Y>
+      <W>268</W>
+      <H>287</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local ListNode` p</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+        <ViewData>
+          <Round>false</Round>
+        </ViewData>
+      </ViewerData>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>2418</W>
+    <H>1481</H>
+  </Size>
+  <ESize>
+    <W>1200</W>
+    <H>880</H>
+  </ESize>
+</Canvas>
